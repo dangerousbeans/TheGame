@@ -11,16 +11,16 @@
       </view>
       <view class="text-container">
         <nb-h3 :style="{ marginBottom: 8 }" class="text-color-white"
-          >App To ShowCase</nb-h3
+          >Welcome to </nb-h3
         >
-        <nb-h3 class="text-color-white">NativeBase Components</nb-h3>
+        <nb-h3 class="text-color-white">The Game</nb-h3>
       </view>
       <view :style="{ marginBottom: 80 }">
         <nb-button
           :style="stylesObj.btnContainer"
           :onPress="handleLetGoBtnPress"
         >
-          <nb-text> Lets Go!</nb-text>
+          <nb-text> Begin</nb-text>
         </nb-button>
       </view>
     </image-background>
